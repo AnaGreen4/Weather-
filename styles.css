@@ -1,0 +1,107 @@
+h1 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+#search-bar {
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 0px solid;
+}
+#searchbutton {
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(58, 146, 248);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 0px solid;
+}
+#searchbutton:hover {
+  background-color: aliceblue;
+  transition: all ease-in-out 150ms;
+  transform: scale(1.1);
+}
+body {
+  margin: 20px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 50px;
+  padding: 20px;
+  background-color: rgba(248, 248, 248, 0.2);
+  height: 160vh;
+}
+html {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/060/415/original/pexels-magda-ehlers-2114014.jpg?1672122781);
+  background-size: cover;
+  font-family: "Forum", cursive;
+  font-family: "Red Hat Display", sans-serif;
+  height: 120vh;
+}
+
+.condition {
+  font-size: 25px;
+}
+
+.column {
+  padding: 10px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 10px;
+  background-color: rgba(240, 248, 255, 0.6);
+}
+.Todayforecast {
+  font-size: larger;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 10px;
+  background-color: rgba(240, 248, 255, 0.6);
+}
+i {
+  font-size: 50px;
+  padding: 10px 5px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  color: rgba(248, 248, 248, 0.479);
+}
+.forecast {
+  font-size: 30px;
+  padding: 3px;
+  color: rgba(240, 248, 255, 0.8);
+}
+p {
+  padding: 5px;
+  padding-left: 20px;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+#tophalf {
+  list-style-type: none;
+  float: right;
+  background-color: rgba(240, 248, 255, 0.6);
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+  width: 35%;
+}
+ul#list {
+  width: 55%;
+  float: left;
+}

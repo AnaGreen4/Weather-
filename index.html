@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <!DOCTYPE html>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/161b401261.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link src="styles.css" rel="stylesheet" type="text/css" />
+    <title>Weather Project</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+  </head>
+  <body>
+    <ul id="tophalf">
+      <li>
+        <form id="formSubmit">
+          <input
+            type="search"
+            autofocus="on"
+            autocomplete="on"
+            placeholder="Enter City name"
+            id="search-bar"
+          /><input type="submit" value="Search" id="searchbutton" />
+        </form>
+        <button id="geolocation">🌎Find my location</button>
+      </li>
+      <li>
+        <div class="info">
+          <h1>
+            <u><span id="titlecity">Linden</span> 25℉ </u><br />
+            
+          </h1>
+          <h2>
+            
+            <br />
+            <ul id = "descriptionlist">
+              <li><span id="date"> December 26th 2022 8:40pm</span></li>
+              <li id = "condition"> </li>
+            
+            <li>Humidity:<span id="humidity"> 20 </span>%</li>
+            
+           <li> Feels Like:<span id="feelslike"> 19 </span>°C</li>
+          </h2>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+
+    <ul id="list">
+      <label class="forecast">Today</label>
+      <li>
+        <div class="Todayforecast">
+          <i class="fa-solid fa-cloud-sun"></i
+          ><label
+            ><p>
+              Low 20° / High 34° <br />
+              Temperatures drop into the evening. Ice possible. Partly cloudy
+              conditions expected through the night into tomorrow.
+            </p></label
+          >
+        </div>
+      </li>
+      <label class="forecast">5 Day Forecast</label>
+      <li class="column">
+        <i class="fa-regular fa-sun"></i
+        ><label
+          >Tuesday<br />
+          21° / 41°</label
+        >
+      </li>
+
+      <li class="column">
+        <i class="fa-solid fa-cloud-sun-rain"></i
+        ><label
+          >Wednesday<br />
+          26° / 45°</label
+        >
+      </li>
+
+      <li class="column">
+        <i class="fa-solid fa-cloud-sun"></i
+        ><label
+          >Thursday<br />
+          22° / 34°</label
+        >
+      </li>
+
+      <li class="column">
+        <i class="fa-regular fa-sun"></i
+        ><label
+          >Friday<br />
+          24° / 48°</label
+        >
+      </li>
+
+      <li class="column">
+        <i class="fa-solid fa-cloud-sun-rain"></i
+        ><label
+          >Saturday<br />
+          36° / 42°</label
+        >
+      </li>
+    </ul>
+    <footer>Coded by Briana G @Shecodes.io</footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
